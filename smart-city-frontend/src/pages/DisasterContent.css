@@ -1,0 +1,37 @@
+.disaster-page {
+  font-family: Arial, sans-serif;
+  color: #efe5e5;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #efe5e5;
+  margin-bottom: 20px;
+}
+
+.disaster-content-list {
+  list-style-type: none;
+  color: #efe5e5;
+  padding: 0;
+}
+
+.disaster-content-list li {
+  font-size: 1.2rem;
+  color: #f0dddd;
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+    color: #efe5e5;
+  }
+
+  .disaster-content-list li {
+    font-size: 1rem;
+    color: #efe5e5;
+  }
+}

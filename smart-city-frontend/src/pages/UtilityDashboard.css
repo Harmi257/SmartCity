@@ -1,0 +1,161 @@
+.utility-dashboard {
+  padding: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  background: url('../assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #f0f0f0;
+}
+
+/* Titles */
+.utility-dashboard h2, 
+.utility-dashboard h3, 
+.utility-dashboard h4 {
+  color: #00ffe1;
+}
+
+/* Filters and Buttons */
+.filter-container, .button-container {
+  margin: 15px 0;
+}
+
+.filter-container select {
+  background-color: #2e2e4d;
+  color: #fff;
+  border: 1px solid #00ffe1;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* Chart Section */
+.chart-container {
+  margin-top: 20px;
+  max-width: 800px;
+  background: #2e2e4d;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00ffe1;
+}
+
+/* Appliance Info */
+.appliance-info {
+  margin: 20px auto;
+  max-width: 1000px;
+  padding: 20px;
+  background: #2e2e4d;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #00ffe1;
+}
+
+.appliance-info h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #00ffe1;
+}
+
+.appliance-info table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  color: #fff;
+}
+
+.appliance-info th,
+.appliance-info td {
+  padding: 12px 15px;
+  border: 1px solid #00ffe1;
+  text-align: center;
+}
+
+.appliance-info thead {
+  background-color: #00ffe1;
+  color: #1e1e2f;
+}
+
+.appliance-info tbody tr:nth-child(even) {
+  background-color: #363653;
+}
+
+.appliance-info tbody tr:hover {
+  background-color: #44446a;
+}
+
+/* Zone Cards */
+.zone-card {
+  border: 1px solid #00ffe1;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #2e2e4d;
+  box-shadow: 0 0 8px #00ffe1;
+}
+
+.zone-card.alert {
+  background-color: #400a0a;
+  border-color: #f44336;
+  box-shadow: 0 0 10px #f44336;
+}
+
+/* Usage Bars */
+.usage-bar {
+  height: 20px;
+  background: #3a3a5a;
+  border-radius: 5px;
+  margin: 5px 0 10px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+}
+
+.water-fill {
+  background-color: #00bcd4;
+}
+
+.electricity-fill {
+  background-color: #ffc107;
+}
+
+.co2-impact {
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+/* Alert Text */
+.alert-text {
+  color: #ff3c3c;
+  font-weight: bold;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  background: transparent;
+  color: #00ffe1;
+  border: 1px solid #00ffe1;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #00ffe1;
+  color: #1e1e2f;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #00e6cc;
+  transform: scale(0.98);
+}
+
+/* Usage Box */
+.usage-box.low {
+  background-color: #1a3d2e;
+  border-left: 5px solid #28a745;
+  color: #b0ffcc;
+}

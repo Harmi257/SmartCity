@@ -1,0 +1,85 @@
+/* Center the register form */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card styling */
+.register-card {
+  background-color: #fff;
+  padding: 30px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+/* Website brand styling */
+.website-name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1d3557;
+  margin-bottom: 15px;
+}
+
+/* Headings */
+.register-card h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Input fields */
+.register-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.register-card input:focus {
+  border-color: #1d3557;
+}
+
+/* Button styling */
+.register-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #457b9d;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-card button:hover {
+  background-color:#1d3557;
+}
+
+/* Link text */
+.register-card a {
+  color:#1d3557;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.register-card a:hover {
+  color: #1d3557;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .register-card {
+    width: 90%;
+    padding: 30px 20px;
+  }
+}

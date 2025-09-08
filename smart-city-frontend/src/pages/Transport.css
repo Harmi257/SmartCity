@@ -1,0 +1,170 @@
+/* Transport.css */
+
+/* General Container */
+.transport-container {
+  padding: 2rem;
+  background-color: #1e1e2f;
+  color: #f0f0f0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+h2, h3, h4 {
+  color: #00ffe1;
+  text-align: center;
+}
+
+/* Filters section */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.filters select {
+  background-color: #2e2e4d;
+  color: #fff;
+  border: 1px solid #00ffe1;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.filters select:focus {
+  border-color: #00ffe1;
+}
+
+/* Schedule Section */
+.schedule-section {
+  margin-top: 2rem;
+}
+
+.schedule-card {
+  background-color: #2e2e4d;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #00ffe1;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00ffe1;
+}
+
+.schedule-card h4 {
+  color: #00ffe1;
+  margin-bottom: 10px;
+}
+
+.schedule-card p {
+  color: #f0f0f0;
+  font-size: 14px;
+}
+
+/* Add Transport Form */
+.add-transport-form {
+  margin-top: 40px;
+  background-color: #2e2e4d;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00ffe1;
+}
+
+.add-transport-form h3 {
+  text-align: center;
+  color: #00ffe1;
+  margin-bottom: 20px;
+}
+
+.add-transport-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-transport-form input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #00ffe1;
+  border-radius: 4px;
+  background-color: #2e2e4d;
+  color: #fff;
+  outline: none;
+}
+
+.add-transport-form input:focus {
+  border-color: #00ffe1;
+}
+
+.add-transport-form input::placeholder {
+  color: #888;
+}
+
+/* Add Transport Button */
+.add-transport-form button {
+  padding: 12px;
+  font-size: 16px;
+  color: #1e1e2f;
+  background-color: #00ffe1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-transport-form button:hover {
+  background-color: #00cba7;
+}
+
+/* Useful Buttons */
+.useful-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.useful-buttons button {
+  background: transparent;
+  border: 1px solid #00ffe1;
+  color: #00ffe1;
+  padding: 10px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.useful-buttons button:hover {
+  background-color: #00ffe1;
+  color: #1e1e2f;
+}
+
+/* Chart Section */
+.chart-section .chart-wrapper {
+  height: 300px;
+  background: #2e2e4d;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+/* Route Section */
+.route-section {
+  margin-top: 2rem;
+  background-color: #2e2e4d;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .filters select {
+    width: 100%;
+  }
+
+  .add-transport-form form {
+    width: 100%;
+  }
+}

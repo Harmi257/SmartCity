@@ -1,0 +1,48 @@
+.disaster-form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f7f9fc;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  }
+  
+  .disaster-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003366;
+  }
+  
+  .disaster-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .disaster-form input,
+  .disaster-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .disaster-form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0055aa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .disaster-form button:hover {
+    background-color: #003f7f;
+  }
+  

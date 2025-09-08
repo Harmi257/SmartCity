@@ -1,0 +1,63 @@
+.transport-container {
+  padding: 2rem;
+  background-color: #1e1e2f;
+  color: #f0f0f0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3, h4 {
+  color: #00ffe1;
+}
+
+.filters select {
+  background-color: #2e2e4d;
+  color: #fff;
+  border: 1px solid #00ffe1;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.schedule-card {
+  background-color: #2e2e4d;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #00ffe1;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00ffe1;
+}
+
+.useful-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.useful-buttons button {
+  background: transparent;
+  border: 1px solid #00ffe1;
+  color: #00ffe1;
+  padding: 10px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.useful-buttons button:hover {
+  background-color: #00ffe1;
+  color: #1e1e2f;
+}
+
+.chart-section .chart-wrapper {
+  height: 300px;
+  background: #2e2e4d;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.route-section {
+  margin-top: 2rem;
+  background-color: #2e2e4d;
+  padding: 1rem;
+  border-radius: 10px;
+}
