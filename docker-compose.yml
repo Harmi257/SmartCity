@@ -1,0 +1,36 @@
+
+
+services:
+  frontend:
+    build: ./smart-city-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+  backend:
+    build: ./smart-city-backend
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mysql
+    environment:
+      - DB_NAME=smartcitydb
+      - DB_USER=root
+      - DB_PASSWORD=root
+      - DB_HOST=mysql
+      - JWT_SECRET_KEY=4cdf68e17523489e0864101cbf039d6267bed8df28185bde891d536e3bc1a044764911eb1e60bc3a648c1ef3133e0c51b6a81e783a2864ee380fffa5475aea72
+
+  mysql:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: smartcitydb
+    volumes:
+      - db-data:/var/lib/mysql
+    ports:
+      - "3309:3306"
+
+volumes:
+  db-data:
